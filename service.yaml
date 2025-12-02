@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: nginx-svc
 spec:
- project: default
   type: NodePort
   selector:
     app: nginx
